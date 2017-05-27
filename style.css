@@ -5,8 +5,9 @@ body {
 }
 
 #main-heading {
-    border-bottom: 3px solid black;
     color: black;
+    padding: 20px;
+    background-color: rgba(209, 205, 204, 0.3);
 }
 
 #weather-info ul {
@@ -16,12 +17,14 @@ body {
 
 #weather-info li {
     font-weight: bold;
+    font-size: 18px;
     float: left;
     width: 42%;
     margin: 20px 0 20px 8%;
-    padding: 18px;
-    border: 3px solid black;
+    padding: 20px 18px;
+
     color: black;
+    background-color: rgba(209, 205, 204, 0.3);
 }
 
 #weather-info li:nth-child(odd) {
@@ -36,13 +39,13 @@ body {
 
 footer {
     margin-top: 20px;
-    font-family: italic;
     color: black;
-    font-weight: bold;
+    font-size: 18px;
 }
 
 footer a {
     color: black;
+    font-weight: bolder;
 }
 
 footer a:hover {
