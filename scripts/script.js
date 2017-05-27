@@ -26,11 +26,12 @@ $(document).ready(function(){
 
                 $("#temperature").click(function() {
                     if(celciusSelected===false) { 
-                        $("#temperature").html(celciusTemperature + " &#8451");
+                     $("#temperature").html(celciusTemperature + " &#8451");
                         celciusSelected=true;
                     } else{
-                        $("#temperature").html(fahrenheitTemperature + " &#8457");
+                    $("#temperature").html(fahrenheitTemperature + " &#8457");
                         celciusSelected=false;
+                                                      
                     }
                 });
 
