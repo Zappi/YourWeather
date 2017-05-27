@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Georgia;
+}
+
+#weather-info {
+    width: 600px;
+    text-align: center;
+}
+
+ul li{
+  width: 33%;
+  float: left;
+}
+
+ul {
+    list-style-type: none;
+    width: 70%;
+    margin: auto;
+}
+
+li {
+    border: 3px solid black;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+}
+
+
