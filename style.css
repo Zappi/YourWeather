@@ -15,6 +15,7 @@ body {
 }
 
 #weather-info li {
+    font-weight: bold;
     float: left;
     width: 42%;
     margin: 20px 0 20px 8%;
@@ -37,6 +38,7 @@ footer {
     margin-top: 20px;
     font-family: italic;
     color: black;
+    font-weight: bold;
 }
 
 footer a {
