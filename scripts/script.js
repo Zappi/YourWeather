@@ -24,13 +24,13 @@ $(document).ready(function(){
                 
                 $("#temperature").html(celciusTemperature + " &#8451");                
 
-                $("#temperature").click(function() {
+                $("#selector").click(function() {
                     if(celciusSelected===false) { 
                        $("#temperature").html(celciusTemperature + " &#8451");
                     celciusSelected=true;
                     } else{
                     $("#temperature").html(fahrenheitTemperature + " &#8457");
-                    celciusSelectede=false;
+                    celciusSelected=false;
                 }
                 });
                 
@@ -43,3 +43,9 @@ $(document).ready(function(){
             });
       }
 });
+
+function changeTemperature() {
+    
+}
+
+
