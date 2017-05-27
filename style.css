@@ -1,11 +1,12 @@
 body {
-    background-color: lightblue;
+    background-image: url("greybackground.jpg");
     text-align: center;
     font-family: Georgia;
 }
 
 #main-heading {
     border-bottom: 3px solid black;
+    color: black;
 }
 
 #weather-info ul {
@@ -18,7 +19,8 @@ body {
     width: 42%;
     margin: 20px 0 20px 8%;
     padding: 18px;
-    border: 1px solid black;
+    border: 3px solid black;
+    color: black;
 }
 
 #weather-info li:nth-child(odd) {
@@ -28,11 +30,13 @@ body {
 
 #icon {
     font-size: 120px;
+    color: black;
 }
 
 footer {
     margin-top: 20px;
     font-family: italic;
+    color: black;
 }
 
 footer a {
@@ -41,5 +45,6 @@ footer a {
 
 footer a:hover {
     color: darkred;
+    text-decoration: none;
 }
 
